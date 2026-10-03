@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SautiYaTai" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Splash Screen Background -->
+        <item name="android:windowBackground">@drawable/splash_background</item>
+
+        <!-- Window Settings -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+        <!-- Status Bar Color -->
+        <item name="android:statusBarColor">#667eea</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
